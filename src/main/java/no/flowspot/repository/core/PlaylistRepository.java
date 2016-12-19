@@ -24,7 +24,7 @@ public class PlaylistRepository {
     try {
       return spotifyApi.getPlaylist("spotify", topListId).build().get();
     } catch (WebApiException | IOException e) {
-      LOGGER.error("Exception calling getPlaylist() with id: " + topListId);
+      LOGGER.error("Exception calling getTopList() with id: " + topListId);
       spotifyApi.refreshAccessToken();
     }
 
