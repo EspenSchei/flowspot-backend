@@ -1,4 +1,4 @@
-package no.flowspot.status;
+package no.flowspot.api.status;
 
 import java.time.LocalDateTime;
 
