@@ -18,8 +18,8 @@ mvn jetty:run-exploded
 
 ### Test the service
 
-*1. Request: JSON*
+*1. Requests: JSON*
 ```
-curl http://localhost:8080/rest/ping 
-# prints: Server is up and running @ 2016-12-16
+http://localhost:8080/rest/ping 
+http://localhost:8080/rest/playlist/top
 ```
