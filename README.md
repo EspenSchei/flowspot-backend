@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/EspenSchei/flowspot-backend.svg?branch=master)](https://travis-ci.org/EspenSchei/flowspot-backend)
+
 # Overview
 
 This Github project contains the backend API for the flowspot project. 
