@@ -16,7 +16,7 @@ public class PropertiesLoader {
       properties.load(is);
       return Optional.of(properties.getProperty(key));
     } catch (Exception ioe) {
-      LOGGER.error("Exception loading propery value: " + key, ioe);
+      LOGGER.error("Exception loading propery value: " + key);
     }
     return Optional.empty();
   }
